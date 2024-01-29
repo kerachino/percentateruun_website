@@ -56,7 +56,7 @@ nav a:hover {
 
 .section {
   background-color: rgba(244, 244, 244, 0.9);
-  padding: 50px 0;
+  padding: 50px 50px;
 }
 
 .container h2 {
@@ -114,4 +114,12 @@ button   {
 }
 button:hover {
   background-color: #2980b9;
+}
+
+#inviteLinkButton button{
+  width: 100%;
+  display: inline-block;
+  padding: 50px;
+  font-size: 26px;
+  font-weight: bold;
 }
