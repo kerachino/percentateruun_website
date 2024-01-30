@@ -4,12 +4,24 @@ body {
   padding: 0;
 }
 
-h2{
+h2, .title{
   color:#dfb409
 }
+.title{
+  /* padding:10px 100px; */
+  text-align: center;
+  font-weight: bold;
+  font-size:32px;
+  text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+              -2px 2px 0 #000000, 2px -2px 0 #000000,
+              0px 2px 0 #000000,  0 -1px 0 #000000,
+              -2px 0 0 #000000, 2px 0 0 #000000;
+}
+
 .bg-image1 {
   max-width: auto;
   height: 100%;
+  width: 100%;
   position: fixed;
   z-index: -2;
 }
@@ -57,11 +69,21 @@ nav a:hover {
   color: #ffd700;
 }
 
-.section {
+main{
   background-color: rgba(244, 244, 244, 0.9);
+
+}
+.section {
   padding: 50px 50px;
 }
-
+#howToUse{
+  background-color: rgba(244, 244, 244, 0.9);
+}
+.section2 {
+  background-color: rgba(244, 244, 244, 0.9);
+  text-align: right;
+  padding-right: 50px;
+}
 .container h2 {
   color: #333;
 }
@@ -102,18 +124,23 @@ nav a:hover {
 #main{
   padding:0 50px;
 }
-button   {
+#inviteLinkButton button {
+  width: 100%;
   display: inline-block;
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
   cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#inviteLinkButton button:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* ホバー時に拡大するアニメーション */
 }
 button:hover {
   background-color: #2980b9;
@@ -125,4 +152,25 @@ button:hover {
   padding: 50px;
   font-size: 26px;
   font-weight: bold;
+}
+
+#pdf{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+#pdf iframe{
+  width:100%;
+  max-width:800px;
+  height:80vh;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
