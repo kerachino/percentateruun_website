@@ -153,7 +153,19 @@ main{
   writing-mode: vertical-rl;
   letter-spacing: 0.5em;
 }
-
+.header-caption2 {
+  position: absolute;
+  background-color: #284353;
+  font-size: 24px;
+  padding: 20px 10px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  writing-mode: vertical-rl;
+  letter-spacing: 0.5em;
+}
 #main{
   padding:0 50px;
 }
