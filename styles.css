@@ -14,6 +14,7 @@ h2, .title{
 .title{
   padding:0 0 20px 0;
   text-align: center;
+  margin-right: -120px;
   font-weight: bold;
   font-size:32px;
   text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
@@ -21,7 +22,10 @@ h2, .title{
               0px 2px 0 #000000,  0 -1px 0 #000000,
               -2px 0 0 #000000, 2px 0 0 #000000;
 }
-
+.title a{
+  font-size: 12px;
+  text-shadow:none
+}
 .bg-image1 {
   max-width: auto;
   height: 100%;
@@ -214,4 +218,26 @@ footer {
 
 #copyright{
   padding: 100px 0 50px 0;
+}
+
+@media screen and (max-width:1200px){
+  .container{
+    width: 100%;
+  }
+  .container nav{display: none}
+  header{min-height:70vh}
+  #inviteLinkButton{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  #main{
+    padding:0;
+  }
+  #howToUse{
+    margin: 0;
+  }
+  .section{
+    padding: 0;
+  }
 }
