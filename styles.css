@@ -77,7 +77,29 @@ main{
   padding: 50px 50px;
 }
 #howToUse{
-  background-color: rgba(244, 244, 244, 0.9);
+  margin: 50px;
+  /* background-color: rgba(244, 244, 244, 0.9); */
+  text-align: center;
+}
+.howToUseText{
+  /* background-color: rgba(244, 244, 244, 0.9); */
+}
+.bgFontColor1, .bgFontColor2, .bgFontColor3{
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.4em;
+  padding: 5px;
+  margin: 10px;
+  background:rgba(196, 196, 196, 1);;
+}
+.bgFontColor2{
+  color: #dc7712;
+  font-size: 2.5rem;
+  line-height: 1.4em;
+  margin-bottom: 50px;
+}
+.bgFontColor3{
+  font-size: 1rem;
 }
 .section2 {
   background-color: rgba(244, 244, 244, 0.9);
@@ -124,6 +146,10 @@ main{
 #main{
   padding:0 50px;
 }
+
+#inviteLinkButton {
+  margin: 50px;
+}
 #inviteLinkButton button {
   width: 100%;
   display: inline-block;
@@ -164,13 +190,22 @@ button:hover {
   max-width:800px;
   height:80vh;
 }
+#code{
+  text-align: right;
+}
+#code a{
+  color: #fff;
+}
 
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  margin-top: 100px;
   text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
+}
+#copyright{
+  padding: 60px 0 20px 0;
 }
