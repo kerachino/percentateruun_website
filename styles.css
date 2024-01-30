@@ -4,6 +4,9 @@ body {
   padding: 0;
 }
 
+h1{
+  color:#dfb409
+}
 .bg-image1 {
   max-width: auto;
   height: 100%;
