@@ -6,6 +6,18 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ff8095;
+  border-radius: 5px;
 }
 
 h2, .title{
@@ -235,7 +247,7 @@ footer {
   padding: 100px 0 50px 0;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:799px){
   .container{
     width: 100%;
   }
